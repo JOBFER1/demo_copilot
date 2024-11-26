@@ -1,0 +1,15 @@
+/*************  ✨ Codeium Command ⭐  *************/
+package com.example.demo_copilot;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hola mundo!!";
+    }
+}
+/******  d30cb7f9-546a-4424-9124-d633525e0483  *******/
